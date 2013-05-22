@@ -1,0 +1,819 @@
+﻿{
+  "schedule":{
+    "service":{
+      "type":"radio",
+      "key":"radio2",
+      "title":"BBC Radio 2"
+    },
+    "day":{
+      "date":"2013-05-22",
+      "has_next":1,
+      "has_previous":1,
+      "broadcasts":[
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p018zpn7",
+          "start":"2013-05-22T00:00:00+01:00",
+          "end":"2013-05-22T02:00:00+01:00",
+          "duration":7200,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqg9",
+            "position":null,
+            "title":"22/05/2013",
+            "short_synopsis":"Carey Willets, from Athlete, presents the Spoken Word Session.",
+            "media_type":"audio",
+            "duration":7020,
+            "display_titles":{
+              "title":"Janice Long",
+              "subtitle":"22/05/2013"
+            },
+            "first_broadcast_date":"2013-05-22T00:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wr0n",
+              "title":"Janice Long",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2007-09-17T00:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "available_until":"2013-05-29T02:02:00+01:00",
+            "actual_start":"2013-05-22T02:38:22+01:00",
+            "is_available_mediaset_pc_sd":true,
+            "is_legacy_media":false,
+            "media":{
+              "format":"audio",
+              "expires":"2013-05-29T02:02:00+01:00",
+              "availability":"6 days left to listen"
+            }
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p018zpn8",
+          "start":"2013-05-22T02:00:00+01:00",
+          "end":"2013-05-22T05:00:00+01:00",
+          "duration":10800,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgc",
+            "position":null,
+            "title":"Disc Protons",
+            "short_synopsis":"Witty chat and top tunes for all night-owls on the Best Time of the Day Show with Alex.",
+            "media_type":"audio",
+            "duration":10620,
+            "display_titles":{
+              "title":"Alex Lester",
+              "subtitle":"Disc Protons"
+            },
+            "first_broadcast_date":"2013-05-22T02:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wr19",
+              "title":"Alex Lester",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2007-04-09T04:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "available_until":"2013-05-29T05:02:00+01:00",
+            "actual_start":"2013-05-22T05:33:27+01:00",
+            "is_available_mediaset_pc_sd":true,
+            "is_legacy_media":false,
+            "media":{
+              "format":"audio",
+              "expires":"2013-05-29T05:02:00+01:00",
+              "availability":"7 days left to listen"
+            }
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p018zpn9",
+          "start":"2013-05-22T05:00:00+01:00",
+          "end":"2013-05-22T06:30:00+01:00",
+          "duration":5400,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgf",
+            "position":null,
+            "title":"Why You Shouldn't Do It Yourself!",
+            "short_synopsis":"Vanessa's talking about decorating disasters this morning, when DIY was a big N-O N-O!",
+            "media_type":"audio",
+            "duration":5220,
+            "display_titles":{
+              "title":"Vanessa Feltz",
+              "subtitle":"Why You Shouldn't Do It Yourself!"
+            },
+            "first_broadcast_date":"2013-05-22T05:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b00xzvq5",
+              "title":"Vanessa Feltz",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2011-01-17T05:00:00Z",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "available_until":"2013-05-29T06:32:00+01:00",
+            "actual_start":"2013-05-22T07:37:05+01:00",
+            "is_available_mediaset_pc_sd":true,
+            "is_legacy_media":false,
+            "media":{
+              "format":"audio",
+              "expires":"2013-05-29T06:32:00+01:00",
+              "availability":"7 days left to listen"
+            }
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p018zpnb",
+          "start":"2013-05-22T06:30:00+01:00",
+          "end":"2013-05-22T09:30:00+01:00",
+          "duration":10800,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgh",
+            "position":null,
+            "title":"22/05/2013",
+            "short_synopsis":"A fully interactive show for all the family.",
+            "media_type":"audio",
+            "duration":10740,
+            "display_titles":{
+              "title":"The Chris Evans Breakfast Show",
+              "subtitle":"22/05/2013"
+            },
+            "first_broadcast_date":"2013-05-22T06:30:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b00p2d9w",
+              "title":"The Chris Evans Breakfast Show",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2010-01-11T07:05:00Z",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "available_until":"2013-05-29T09:32:00+01:00",
+            "actual_start":"2013-05-22T10:10:30+01:00",
+            "is_available_mediaset_pc_sd":true,
+            "is_legacy_media":false,
+            "media":{
+              "format":"audio",
+              "expires":"2013-05-29T09:32:00+01:00",
+              "availability":"7 days left to listen"
+            }
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck1",
+          "start":"2013-05-22T09:30:00+01:00",
+          "end":"2013-05-22T12:00:00+01:00",
+          "duration":9000,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgk",
+            "position":null,
+            "title":"With American country star Tim McGraw",
+            "short_synopsis":"American country star and actor Tim McGraw picks two more songs in the Tracks of My Years.",
+            "media_type":"audio",
+            "duration":9000,
+            "display_titles":{
+              "title":"Ken Bruce",
+              "subtitle":"With American country star Tim McGraw"
+            },
+            "first_broadcast_date":"2013-05-22T09:30:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wr34",
+              "title":"Ken Bruce",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2007-04-06T09:30:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "available_until":"2013-05-29T12:02:00+01:00",
+            "actual_start":"2013-05-22T12:36:43+01:00",
+            "is_available_mediaset_pc_sd":true,
+            "is_legacy_media":false,
+            "media":{
+              "format":"audio",
+              "expires":"2013-05-29T12:02:00+01:00",
+              "availability":"7 days left to listen"
+            }
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck2",
+          "start":"2013-05-22T12:00:00+01:00",
+          "end":"2013-05-22T14:00:00+01:00",
+          "duration":7200,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgm",
+            "position":null,
+            "title":"Lord Puttnam - What makes us human?",
+            "short_synopsis":"Jeremy Vine explores what makes us human with film producer Lord Puttnam.",
+            "media_type":"audio",
+            "duration":7200,
+            "display_titles":{
+              "title":"Jeremy Vine",
+              "subtitle":"Lord Puttnam - What makes us human?"
+            },
+            "first_broadcast_date":"2013-05-22T12:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wr3p",
+              "title":"Jeremy Vine",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2007-04-06T12:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck3",
+          "start":"2013-05-22T14:00:00+01:00",
+          "end":"2013-05-22T17:05:00+01:00",
+          "duration":11100,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgp",
+            "position":null,
+            "title":"Richard Allinson sits in",
+            "short_synopsis":"Richard chats to actress Jenny Seagrove and ice skating legends Torvill and Dean.",
+            "media_type":"audio",
+            "duration":10620,
+            "display_titles":{
+              "title":"Steve Wright in the Afternoon",
+              "subtitle":"Richard Allinson sits in"
+            },
+            "first_broadcast_date":"2013-05-22T14:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wr4r",
+              "title":"Steve Wright in the Afternoon",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2003-09-19T14:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck4",
+          "start":"2013-05-22T17:05:00+01:00",
+          "end":"2013-05-22T19:00:00+01:00",
+          "duration":6900,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgr",
+            "position":null,
+            "title":"22/05/2013",
+            "short_synopsis":"Simon Mayo is joined by Rod Argent and Colin Blunstone from The Zombies.",
+            "media_type":"audio",
+            "duration":6900,
+            "display_titles":{
+              "title":"Simon Mayo Drivetime",
+              "subtitle":"22/05/2013"
+            },
+            "first_broadcast_date":"2013-05-22T17:05:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b00p2dfq",
+              "title":"Simon Mayo Drivetime",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2010-01-11T17:05:00Z",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck5",
+          "start":"2013-05-22T19:00:00+01:00",
+          "end":"2013-05-22T20:00:00+01:00",
+          "duration":3600,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgt",
+            "position":null,
+            "title":"Olivia Chaney in session",
+            "short_synopsis":"With a live session from Olivia Chaney, one of English folk's most exciting new voices.",
+            "media_type":"audio",
+            "duration":3420,
+            "display_titles":{
+              "title":"The Folk Show with Mark Radcliffe",
+              "subtitle":"Olivia Chaney in session"
+            },
+            "first_broadcast_date":"2013-05-22T19:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b01phglj",
+              "title":"The Folk Show with Mark Radcliffe",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2013-01-02T19:00:00Z",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck6",
+          "start":"2013-05-22T20:00:00+01:00",
+          "end":"2013-05-22T21:30:00+01:00",
+          "duration":5400,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgw",
+            "position":null,
+            "title":"Craig Charles sits in",
+            "short_synopsis":"Craig Charles brings his Trunk of Funk to Wednesday evenings.",
+            "media_type":"audio",
+            "duration":5220,
+            "display_titles":{
+              "title":"Jo Whiley",
+              "subtitle":"Craig Charles sits in"
+            },
+            "first_broadcast_date":"2013-05-22T20:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b00zqcjv",
+              "title":"Jo Whiley",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2011-04-04T20:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck7",
+          "start":"2013-05-22T21:30:00+01:00",
+          "end":"2013-05-22T22:00:00+01:00",
+          "duration":1800,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqgy",
+            "position":null,
+            "title":"Tim Mutum and Tine Thing Helseth CD review",
+            "short_synopsis":"Frank Renton has a new CD by Tine Thing Helseth, plus archive classics with Tim Mutum.",
+            "media_type":"audio",
+            "duration":1800,
+            "display_titles":{
+              "title":"Listen to the Band",
+              "subtitle":"Tim Mutum and Tine Thing Helseth CD review"
+            },
+            "first_broadcast_date":"2013-05-22T21:30:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wrvg",
+              "title":"Listen to the Band",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2007-09-28T21:30:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck8",
+          "start":"2013-05-22T22:00:00+01:00",
+          "end":"2013-05-22T23:00:00+01:00",
+          "duration":3600,
+          "programme":{
+            "type":"episode",
+            "pid":"b01nwh32",
+            "position":21,
+            "title":"I Bet You Look Good on the Dancefloor - Social Networking and iPod Culture",
+            "short_synopsis":"The burgeoning internet allows the Arctic Monkeys to turn the music business on its head.",
+            "media_type":"audio",
+            "duration":3420,
+            "display_titles":{
+              "title":"The People's Songs",
+              "subtitle":"I Bet You Look Good on the Dancefloor - Social Networking and iPod Culture"
+            },
+            "first_broadcast_date":"2013-05-22T22:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b01l9qb8",
+              "title":"The People's Songs",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2013-01-02T22:00:00Z",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ck9",
+          "start":"2013-05-22T23:00:00+01:00",
+          "end":"2013-05-23T00:00:00+01:00",
+          "duration":3600,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqh0",
+            "position":null,
+            "title":"22/05/2013",
+            "short_synopsis":"Trevor Nelson welcomes soul diva Jocelyn Brown for a special one-hour co-host.",
+            "media_type":"audio",
+            "duration":3420,
+            "display_titles":{
+              "title":"Trevor Nelson's Soul Show",
+              "subtitle":"22/05/2013"
+            },
+            "first_broadcast_date":"2013-05-22T23:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b00b101l",
+              "title":"Trevor Nelson's Soul Show",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2008-04-09T22:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ckb",
+          "start":"2013-05-23T00:00:00+01:00",
+          "end":"2013-05-23T02:00:00+01:00",
+          "duration":7200,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shs94",
+            "position":null,
+            "title":"23/05/2013",
+            "short_synopsis":"Great music and top chat after midnight.",
+            "media_type":"audio",
+            "duration":7020,
+            "display_titles":{
+              "title":"Janice Long",
+              "subtitle":"23/05/2013"
+            },
+            "first_broadcast_date":"2013-05-23T00:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wr0n",
+              "title":"Janice Long",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2007-09-17T00:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ckc",
+          "start":"2013-05-23T02:00:00+01:00",
+          "end":"2013-05-23T05:00:00+01:00",
+          "duration":10800,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shs96",
+            "position":null,
+            "title":"Donned a Flag",
+            "short_synopsis":"Witty chat and top tunes for all night-owls on the Best Time of the Day Show with Alex.",
+            "media_type":"audio",
+            "duration":10620,
+            "display_titles":{
+              "title":"Alex Lester",
+              "subtitle":"Donned a Flag"
+            },
+            "first_broadcast_date":"2013-05-23T02:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b006wr19",
+              "title":"Alex Lester",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2007-04-09T04:00:00+01:00",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        },
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p0191ckd",
+          "start":"2013-05-23T05:00:00+01:00",
+          "end":"2013-05-23T06:30:00+01:00",
+          "duration":5400,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shs98",
+            "position":null,
+            "title":"The Lovely Listeners Lovely Lunch Club",
+            "short_synopsis":"Educating, informing and entertaining, Vanessa has the week's penultimate Early Breakfast.",
+            "media_type":"audio",
+            "duration":5220,
+            "display_titles":{
+              "title":"Vanessa Feltz",
+              "subtitle":"The Lovely Listeners Lovely Lunch Club"
+            },
+            "first_broadcast_date":"2013-05-23T05:00:00+01:00",
+            "ownership":{
+              "service":{
+                "type":"radio",
+                "id":"bbc_radio_two",
+                "key":"radio2",
+                "title":"BBC Radio 2"
+              }
+            },
+            "programme":{
+              "type":"brand",
+              "pid":"b00xzvq5",
+              "title":"Vanessa Feltz",
+              "position":null,
+              "expected_child_count":null,
+              "first_broadcast_date":"2011-01-17T05:00:00Z",
+              "ownership":{
+                "service":{
+                  "type":"radio",
+                  "id":"bbc_radio_two",
+                  "key":"radio2",
+                  "title":"BBC Radio 2"
+                }
+              }
+            },
+            "is_available_mediaset_pc_sd":false,
+            "is_legacy_media":false
+          }
+        }
+      ]
+    }
+  }
+}

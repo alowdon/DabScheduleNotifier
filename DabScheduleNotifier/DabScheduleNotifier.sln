@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabScheduleNotifier", "DabScheduleNotifier\DabScheduleNotifier.csproj", "{B96EBDC8-EF82-43A0-B268-03DE3B5171F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabScheduleNotifier.UnitTests", "DabScheduleNotifier.UnitTests\DabScheduleNotifier.UnitTests.csproj", "{AD88862B-8A82-414A-8C97-E8E4C2E9D40C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabScheduleNotified.IntegrationTests", "DabScheduleNotified.IntegrationTests\DabScheduleNotified.IntegrationTests.csproj", "{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B72C21ED-B690-4FB0-8FE9-383424F87433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +19,20 @@ Global
 		{B96EBDC8-EF82-43A0-B268-03DE3B5171F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B96EBDC8-EF82-43A0-B268-03DE3B5171F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B96EBDC8-EF82-43A0-B268-03DE3B5171F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD88862B-8A82-414A-8C97-E8E4C2E9D40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD88862B-8A82-414A-8C97-E8E4C2E9D40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD88862B-8A82-414A-8C97-E8E4C2E9D40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD88862B-8A82-414A-8C97-E8E4C2E9D40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D} = {B72C21ED-B690-4FB0-8FE9-383424F87433}
+		{AD88862B-8A82-414A-8C97-E8E4C2E9D40C} = {B72C21ED-B690-4FB0-8FE9-383424F87433}
 	EndGlobalSection
 EndGlobal

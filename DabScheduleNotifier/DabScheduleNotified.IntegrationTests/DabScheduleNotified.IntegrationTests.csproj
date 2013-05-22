@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B96EBDC8-EF82-43A0-B268-03DE3B5171F8}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DabScheduleNotifier</RootNamespace>
-    <AssemblyName>DabScheduleNotifier</AssemblyName>
+    <RootNamespace>DabScheduleNotified.IntegrationTests</RootNamespace>
+    <AssemblyName>DabScheduleNotified.IntegrationTests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.5\lib\net40\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,23 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JsonFeedReader.cs" />
-    <Compile Include="JsonScheduleRepresentation\Broadcast.cs" />
-    <Compile Include="JsonScheduleRepresentation\Day.cs" />
-    <Compile Include="JsonScheduleRepresentation\DisplayTitles.cs" />
-    <Compile Include="JsonScheduleRepresentation\Media.cs" />
-    <Compile Include="JsonScheduleRepresentation\Ownership.cs" />
-    <Compile Include="JsonScheduleRepresentation\Programme.cs" />
-    <Compile Include="JsonScheduleRepresentation\Schedule.cs" />
-    <Compile Include="JsonScheduleRepresentation\ScheduleFeed.cs" />
-    <Compile Include="JsonScheduleRepresentation\Service.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScheduleItem.cs" />
-    <Compile Include="SchedulePopulator.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
