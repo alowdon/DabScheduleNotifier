@@ -2,7 +2,7 @@
 
 namespace DabScheduleNotifier
 {
-    public class ScheduleItem
+    public class Broadcast
     {
         public string Id { get; private set; }
         public DateTime StartTime { get; private set; }
@@ -10,7 +10,7 @@ namespace DabScheduleNotifier
         public string DisplayTitle { get; private set; }
         public string DisplaySubtitle { get; private set; }
 
-        public ScheduleItem(string id, DateTime startTime, DateTime endTime, string displayTitle, string displaySubtitle)
+        public Broadcast(string id, DateTime startTime, DateTime endTime, string displayTitle, string displaySubtitle)
         {
             Id = id;
             StartTime = startTime;

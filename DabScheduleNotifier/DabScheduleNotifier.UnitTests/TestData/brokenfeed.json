@@ -1,0 +1,24 @@
+﻿{
+  "schedule":{
+    "service":{
+      "type":"radio",
+      "key":"radio2",
+      "title":"BBC Radio 2"
+    },
+    "day":{
+      "date":"2013-05-22",
+      "has_next":1,
+      "has_previous":1,
+      "broadcasts":[
+        {
+          "is_repeat":false,
+          "is_blanked":false,
+          "pid":"p018zpn7",
+          "start":"2013-05-22T00:00:00+01:00",
+          "end":"2013-05-22T02:00:00+01:00",
+          "duration":7200,
+          "programme":{
+            "type":"episode",
+            "pid":"b01shqg9",
+            "position":null,
+           
