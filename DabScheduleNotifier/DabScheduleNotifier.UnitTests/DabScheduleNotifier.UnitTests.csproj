@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BroadcastFormatterTests.cs" />
+    <Compile Include="BroadcastWatcherTests.cs" />
+    <Compile Include="FakeDateTimeProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScheduleExtractorTests.cs" />
     <Compile Include="StationScheduleTests.cs" />

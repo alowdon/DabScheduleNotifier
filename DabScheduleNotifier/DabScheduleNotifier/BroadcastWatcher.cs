@@ -7,12 +7,14 @@ namespace DabScheduleNotifier
     public class BroadcastWatcher
     {
         private readonly IStationSchedule _schedule;
+        private readonly int _timeout;
         private readonly IEnumerable<IBroadcastListener> _broadcastListeners;
         private Broadcast _lastKnownBroadcast;
 
-        public BroadcastWatcher(IStationSchedule schedule, IEnumerable<IBroadcastListener> broadcastListeners)
+        public BroadcastWatcher(IStationSchedule schedule, int timeoutInSeconds, params IBroadcastListener[] broadcastListeners)
         {
             _schedule = schedule;
+            _timeout = timeoutInSeconds * 1000;
             _broadcastListeners = broadcastListeners;
         }
 
@@ -26,8 +28,8 @@ namespace DabScheduleNotifier
                      _lastKnownBroadcast = currentBroadcast;
                      NotifyListeners();
                  }
-                 
-                 Thread.Sleep(10000); // obviously change depending on required time resolution of information
+
+                 Thread.Sleep(_timeout);
              }
          }
 

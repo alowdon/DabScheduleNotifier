@@ -17,7 +17,7 @@
         public string Format(Broadcast broadcast)
         {
             return string.Format(
-                "{0:dd/MM/yyyy HH:mm}\tScheduled at {1:dd/MM/yyyy HH:mm}\t{2}: {3} ({4})",
+                "{0:dd/MM/yyyy HH:mm}\tScheduled start: {1:dd/MM/yyyy HH:mm}\t{2}: {3} ({4})",
                 _dateTimeProvider.GetCurrentDateTime(),
                 broadcast.StartTime,
                 broadcast.Id,

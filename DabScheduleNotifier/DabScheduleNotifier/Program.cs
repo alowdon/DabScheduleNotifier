@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using DabScheduleNotifier.Listeners;
+﻿using DabScheduleNotifier.Listeners;
 
 namespace DabScheduleNotifier
 {
@@ -16,8 +15,7 @@ namespace DabScheduleNotifier
             var stationSchedule = new StationSchedule();
             stationSchedule.PopulateSchedule(scheduleDetails);
 
-            var listeners = new List<IBroadcastListener> { new ConsoleBroadcastListener(), new FileBroadcastListener(outputFile) };
-            new BroadcastWatcher(stationSchedule, listeners).Watch();
+            new BroadcastWatcher(stationSchedule, 10, new ConsoleBroadcastListener(), new FileBroadcastListener(outputFile)).Watch();
         }
     }
 }
