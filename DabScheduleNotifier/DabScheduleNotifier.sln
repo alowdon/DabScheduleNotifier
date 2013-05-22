@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabScheduleNotifier", "DabS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabScheduleNotifier.UnitTests", "DabScheduleNotifier.UnitTests\DabScheduleNotifier.UnitTests.csproj", "{AD88862B-8A82-414A-8C97-E8E4C2E9D40C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabScheduleNotified.IntegrationTests", "DabScheduleNotified.IntegrationTests\DabScheduleNotified.IntegrationTests.csproj", "{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabScheduleNotifier.IntegrationTests", "DabScheduleNotified.IntegrationTests\DabScheduleNotifier.IntegrationTests.csproj", "{4D6B5E03-534D-4B2F-AB4A-0EFCD687AE5D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B72C21ED-B690-4FB0-8FE9-383424F87433}"
 EndProject

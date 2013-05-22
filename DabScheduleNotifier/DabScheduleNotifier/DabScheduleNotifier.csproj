@@ -44,7 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JsonFeedReader.cs" />
+    <Compile Include="Exceptions\FeedLoadException.cs" />
+    <Compile Include="FeedReader.cs" />
     <Compile Include="JsonScheduleRepresentation\Broadcast.cs" />
     <Compile Include="JsonScheduleRepresentation\Day.cs" />
     <Compile Include="JsonScheduleRepresentation\DisplayTitles.cs" />
