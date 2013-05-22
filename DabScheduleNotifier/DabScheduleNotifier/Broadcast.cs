@@ -2,7 +2,7 @@
 
 namespace DabScheduleNotifier
 {
-    public class Broadcast
+    public class Broadcast : IEquatable<Broadcast>
     {
         public string Id { get; private set; }
         public DateTime StartTime { get; private set; }
@@ -17,6 +17,13 @@ namespace DabScheduleNotifier
             EndTime = endTime;
             DisplayTitle = displayTitle;
             DisplaySubtitle = displaySubtitle;
+        }
+
+        public bool Equals(Broadcast other)
+        {
+            if (other == null) return false;
+
+            return Id == other.Id;
         }
     }
 }

@@ -5,13 +5,13 @@ using NUnit.Framework;
 namespace DabScheduleNotified.IntegrationTests
 {
     [TestFixture]
-    public class FeedReaderTests
+    public class JsonFeedReaderTests
     {
         [Test]
         public void CanRetrieveFeed()
         {
             // would make this a more reliable URL if possible, e.g. one under our control
-            var reader = new FeedReader("http://www.bbc.co.uk/radio2/programmes/schedules.xml");
+            var reader = new JsonFeedReader("http://www.bbc.co.uk/radio2/programmes/schedules");
             var feedText = reader.GetFeedText();
 
             Assert.IsNotNull(feedText);
@@ -23,7 +23,7 @@ namespace DabScheduleNotified.IntegrationTests
         {
             const string brokenUrl = "http://dummyurl.doesnotexist";
 
-            var reader = new FeedReader(brokenUrl);
+            var reader = new JsonFeedReader(brokenUrl);
             var exception = Assert.Throws<FeedLoadException>(() => reader.GetFeedText());
             Assert.AreEqual("Could not load the specified feed: " + brokenUrl, exception.Message);
         }

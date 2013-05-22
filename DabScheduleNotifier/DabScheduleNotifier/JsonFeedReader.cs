@@ -5,11 +5,11 @@ using DabScheduleNotifier.Exceptions;
 
 namespace DabScheduleNotifier
 {
-    public class FeedReader
+    public class JsonFeedReader
     {
         private readonly string _feedUrl;
 
-        public FeedReader(string feedUrl)
+        public JsonFeedReader(string feedUrl)
         {
             _feedUrl = feedUrl;
         }
@@ -18,7 +18,7 @@ namespace DabScheduleNotifier
         {
             try
             {
-                var request = WebRequest.Create(_feedUrl);
+                var request = WebRequest.Create(_feedUrl + ".json");
 
                 string text;
                 var response = (HttpWebResponse) request.GetResponse();

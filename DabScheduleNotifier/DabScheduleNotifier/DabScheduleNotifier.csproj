@@ -44,9 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BroadcastFormatter.cs" />
+    <Compile Include="BroadcastWatcher.cs" />
+    <Compile Include="ConsoleBroadcastListener.cs" />
     <Compile Include="DateTimeProvider.cs" />
     <Compile Include="Exceptions\FeedLoadException.cs" />
-    <Compile Include="FeedReader.cs" />
+    <Compile Include="JsonFeedReader.cs" />
+    <Compile Include="FileBroadcastListener.cs" />
+    <Compile Include="IBroadcastFormatter.cs" />
+    <Compile Include="IBroadcastListener.cs" />
     <Compile Include="IDateTimeProvider.cs" />
     <Compile Include="IScheduleExtractor.cs" />
     <Compile Include="IStationSchedule.cs" />
